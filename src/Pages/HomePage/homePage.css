@@ -1,0 +1,32 @@
+.homeHeader {
+  min-height: 400px;
+  display: flex;
+  -webkit-box-align: center;
+  align-items: center;
+  justify-content: center;
+  background-color: white;
+  background-image: url("../../Resources/Images/homepage.jpg");
+}
+.homeBody {
+  padding-left: 100px;
+}
+.filter {
+  display: flex;
+  align-items: center;
+  inset: 0px 0px auto;
+  flex-direction: row;
+  position: relative;
+}
+
+.filter input {
+  width: 500px;
+  height: 40px;
+  border-radius: 12px;
+  border: blue;
+}
+
+.filter button {
+  position: absolute;
+  right: 8px;
+  top: 0;
+}
